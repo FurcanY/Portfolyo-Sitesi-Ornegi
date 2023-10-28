@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+    
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 100px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    background-color: rgb(255, 115, 0);
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px;
+    border-color:  rgb(176, 85, 10);
+}
+
+nav ul li {
+    font-size: 20px;
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+
+nav ul li a {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    background-color: black;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+}
+span {
+    color:rgb(255, 115, 0);
+}
+
+.anasayfa{
+    border: 10px solid black;
+    margin: 1rem;
+    padding-top: 200px;
+    text-align: center;
+}
+/* Styles for body section */
+.body {
+    display:inline-block;
+    padding-right: 200px;
+    margin-top: 50px;
+    display: inline-block;
+    
+    vertical-align: middle;
+}
+
+.body h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.image {
+    
+    
+    display:inline-block;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.body button{
+    background-image: none;
+    margin-top: 8px;
+    background-color: rgb(255, 94, 0);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10%;
+}
+
+.image img {
+    border: 10px solid rgb(255, 115, 0);
+    border-radius: 30px;
+    top: 100px;
+    margin-top: 130px;
+    width: 50%;
+    height: 50%;
+    
+}
+.hakkimda{
+    padding: 2%;
+    text-align: left;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.hakkimda p{
+    padding: 40px;
+    font-size: 32px;
+}
+.yeteneklerim{
+    padding: 2%;
+    text-align: left;
+    padding-bottom: 100px;
+    padding-top:150px;
+    background-color: black;
+    color:white;
+}
+.yetenek {
+    font-size: 20px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.yeteneklerim p{
+    padding-top: 10px;
+}
+.html{
+    width: 60%; 
+
+    background-color: rgb(255, 115, 0);
+}
+.css{
+    width: 40%; 
+    background-color: rgb(255, 115, 0);
+}
+.js{
+    width: 5%; 
+    background-color: rgb(255, 115, 0);
+}
+.c{
+    width: 75%; 
+    background-color: rgb(255, 115, 0);
+}
+.csharp{
+    width: 80%; 
+    background-color: rgb(255, 115, 0);
+}
+.container{
+    width: 100%;
+    background-color: #ddd;
+}
+.projelerim{
+    padding: 2%;
+    text-align: left;
+    padding-bottom: 100px;
+    padding-top:150px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.projelerim a{
+    
+    text-decoration: none;
+    color: white;
+}
+.projelerim a div{
+    flex-direction: column;
+    display: grid;
+    align-items: center; 
+    margin: 20px;
+    background-color: black;
+    border-radius: 35px;
+    height: 95%;
+    width: 90%;
+    display: flex;
+
+}
+
+.projelerim a div p{
+    display: block;
+}
+
+.iletisim{
+    padding: 20%;
+    text-align: left;
+    padding-bottom: 100px;
+    padding-top:150px;
+    background-color: black;
+    color:white;
+}
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+  /* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  /* When moving the mouse over the submit button, add a darker green color */
+    input[type=submit]:hover {
+    background-color:rgb(255, 115, 0);
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    text-align: center;
+}
